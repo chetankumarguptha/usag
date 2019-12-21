@@ -8,9 +8,9 @@ const Header = () => (
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl cursor-pointer text-blue-600">
         <div className="w-12 mr-3 cursor-pointer">
-          <LogoIcon />
+          {/* <LogoIcon /> */}
         </div>
-        H@mi#I
+       VR
       </div>
       <div className="flex mt-4 sm:mt-0">
      {/* Menu list
