@@ -30,7 +30,7 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="" className="">
+    <section id="" className=" lg:-mt-4 sm:mt-2">
       <div className="w-auto bg-gray-700 top-auto py-16">
           <ui className="flex justify-center flex-wrap">
                 <a href="#buyer" className="bg-white hover:bg-blue-700 text-black hover:text-white font-bold ml-4 py-2 px-6 mt-3 border border-blue-700
@@ -44,7 +44,7 @@ export default () => (
     </section>
     <section id="buyer" className="lg:h-screen bg-gray-300 lg:pt-48" >
       <div className="container mx-auto my-20 py-24   rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Our Buyer</h3>
+        <h3 className="text-5xl font-semibold"> Buyer</h3>
         <p className="mt-8 text-xl lg:py-4 font-light">
         If you are looking for <a className="font-semibold text-black hover:text-black">RESILIENT</a> support in one of the biggest investments most people ever make in their life, you came to the right place. In a space of uncertainties, rest assured that as your realtor, I will be your beacon of <a className="font-semibold text-black hover:text-black">LIGHT</a>, guiding you through this joyous journey. Please <a className="font-semibold text-black hover:text-black">GIVE</a> me the pleasure of helping you realize your <a className="font-semibold text-black hover:text-black">DREAMS! </a>
         </p>
@@ -53,7 +53,7 @@ export default () => (
     </section>
     <section id="seller" className="lg:h-screen bg-gray-100 lg:pt-48" >
       <div className="container mx-auto my-20 py-24   rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Our Seller</h3>
+        <h3 className="text-5xl font-semibold"> Seller</h3>
         <p className="mt-8 text-xl lg:py-4 font-light">
         <a className="font-semibold text-black hover:text-black">Ease</a> and <a className="font-semibold text-black hover:text-black">Grace</a> is what you get when you say, “VICTOR HELP ME SELL” then hand me the keys. Naturally, one will be put at ease from beginning to end, with constant communication and knowing that you and your goals are supported by a network of individuals who understand the power and importance of collaboration. Implementing proven strategies, anticipating, and true listening is how we will remain in the domain of grace. So...the sooner we close this chapter of your life, the sooner we can open up the next. 
         </p>
@@ -62,7 +62,7 @@ export default () => (
     </section>
     <section id="retaltor" className="lg:h-screen bg-gray-200 lg:pt-48" >
       <div className="container mx-auto my-20 py-24   rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Our Retaltor</h3>
+        <h3 className="text-5xl font-semibold"> Realtor</h3>
         <p className="mt-8 text-xl lg:py-4 font-light">
         My intention is to create a space for <a className="font-semibold text-black hover:text-black">COLLABORATION</a> in order to provide our clients with an experience they will <a className="font-semibold text-black hover:text-black">FOREVER</a> remember. I’ve been fortunate enough to cross paths with soul-centered entrepreneurs who have extended their <a className="font-semibold text-black hover:text-black">RESOURCES</a> to me. To express my never-ending <a className="font-semibold text-black hover:text-black">GRATITUDE</a> I wish to do the same. <a className="font-semibold text-black hover:text-black">ASK ME</a> how I can help you grow your business. Thoughts become reality and I choose <a className="font-semibold text-black hover:text-black">ABUNDANCE</a> for everyone. </p>
       </div> 
