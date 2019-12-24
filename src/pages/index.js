@@ -81,14 +81,62 @@ export default () => (
       </div>    
       
     </section>
-    <section id="retaltor" className="lg:h-screen h-screen bg-gray-300 lg:pt-42 md:pt-48" >
-      <div className="container mx-auto my-20 py-24 bg-yellow-200 rounded-lg text-center">
+    <section id="retaltor" className="lg:h-screen bg-gray-300 lg:pt-42 md:pt-48" >
+      <div className="container mx-auto my-20 py-24 bg-yellow-200  rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
         <p className="mt-8 text-xl font-light">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
         </p>
       </div> 
       
+    </section>
+    <section id="" className="lg:h-screen lg:pt-2 md:pt-48" >
+      <div className="container mx-auto my-20 py-24  bg-yellow-200 shadow-2xl  rounded-lg ">
+      <h3 className="text-5xl font-semibold container mx-auto border-b-2 border-gray-900  text-center">Contact US</h3>
+        <form class="w-full max-w-lg lg:py-4 py-4 lg:px-16">
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3 px-6 mb-6 md:mb-0">
+              <label class="block uppercase tracking-wide text-gray-700 text-xs  font-bold mb-2" for="grid-first-name">
+                First Name:
+              </label>
+              <input class="appearance-none block w-full bg-gray-200  text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" />
+            </div>
+            <div class="w-full md:w-1/2 px-6 ">  
+              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                Last Name:
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe" />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 px-4 mb-6">
+            <div class="w-full px-3">
+              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                Gmail:
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-gmail" type="text" placeholder="honey@gmail.com" />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 px-4 mb-6">
+            <div class="w-full px-3">
+              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                Phone Number:
+              </label>
+              <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-numb" type="text" placeholder="1234567890" />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 px-4 mb-6">
+            <div class="w-full px-3">
+              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                Leave your message here:
+              </label>
+              <textarea class="resize border rounded focus:outline-none focus:shadow-outline px-8  bg-gray-200 text-gray-700 " placeholder="Leave your message here.........."></textarea>
+            </div>
+          </div>
+          <div className="px-4"> 
+          <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ">Submit </button>
+          </div>
+        </form>  
+      </div>    
     </section>
   </Layout>
 );
