@@ -81,7 +81,7 @@ export default () => (
       </div>    
       
     </section>
-    <section id="retaltor" className="lg:h-screen h-screen bg-gray-300 lg:pt-24 md:pt-48" >
+    <section id="retaltor" className="lg:h-screen h-screen bg-gray-300 lg:pt-42 md:pt-48" >
       <div className="container mx-auto my-20 py-24 bg-yellow-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
         <p className="mt-8 text-xl font-light">
