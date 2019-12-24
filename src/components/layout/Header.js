@@ -6,8 +6,8 @@ import Button from '../Button';
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex items-center text-2xl cursor-pointer text-blue-600">
-        <div className="w-12 mr-3 cursor-pointer">
+      <div className="flex items-center text-2xl cursor-pointer text-blue-600 lg:float-left" href="#">
+        <div className="w-12 mr-3 sm:content-center cursor-pointer">
           {/* <LogoIcon /> */}
         </div>
        VR

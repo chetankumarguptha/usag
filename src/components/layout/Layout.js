@@ -7,7 +7,8 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main className="text-gray-900">{children}</main>
-    
+
+      <Footer />
     </>
   );
 };

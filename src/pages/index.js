@@ -20,12 +20,12 @@ export default () => (
           <h1 className="text-4xl lg:text-5xl py-10 xl:text-6xl font-bold leading-none">
             Victor Carrizalez
           </h1>
-          <p className="text-xl lg:text-2xl  border-l-8 px-12 py-3 font-light">
+          <p className="text-xl lg:text-2xl  border-l-4 border-gray-800 px-12 py-3 font-light">
             Free landing page template to promote your business startup and generate leads for the
             offered services
           </p>
         </div>
-        <div className="lg:w-1/2 sm:w-1 object-center px-8 sm:py-4  md:w-1/2 md:mx-32 lg:-mx-1">
+        <div className="lg:w-1/2 sm:w-1 object-center px-8 sm:py-4 lg:px-32 md:w-1/2 md:mx-32 lg:-mx-1">
           <img src={Personimage}/>
         </div>
       </div>
@@ -41,11 +41,11 @@ export default () => (
           <p class="text-center justify-center py-6 px-12 sm:text-center md:text-center lg:text-center xl:text-center ...">Lorem ipsum dolor sit amet ...</p>
         </div>
     </section>
-    <section id="seller" className="py-20  bg-red-600 ">
+    <section id="buyer" className="py-20 h-screen bg-gray-300 ">
       <div className="container mx-auto text-center h-screen lg:pt-32">
-        <LabelText className="text-gray-600">Our customers get results</LabelText>
-        <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
+        <LabelText className="text-black lg:text-4xl md:text-4xl md:py-12">Our Buyer says</LabelText>
+        <div className="flex flex-col sm:flex-row mt-8 md:text-xl md:py-2 lg:px-24 lg:py-8 lg:text-2xl">
+          {/* <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+100%" secondaryText="Stats Information" />
           </div>
           <div className="w-full sm:w-1/3">
@@ -53,41 +53,36 @@ export default () => (
           </div>
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
+          </div> */}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div className="flex flex-col sm:flex-row mt-8 lg:px-24 md:text-xl md:py-2 lg:py-8 lg:text-2xl">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
         </div>
       </div>
     </section>
-    <section id="buyer" className=" py-20 bg-orange-600">
-      <div className="container mx-auto h-screen  ">
-        <LabelText className="mb-8 text-gray-600 text-center py-2">What customers are saying</LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
+    <section id="seller" className="h-screen py-20 bg-gray-100">
+      <div className="container mx-auto h-screen lg:pt-32 ">
+        <LabelText className="mb-8 text-black lg:text-4xl sm:text-6xl md:text-4xl text-center py-2">saying about seller</LabelText>
+        {/* <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
               <CustomerCard customer={customer} />
             </div>
           ))}
+        </div> */}
+        <div className="flex flex-col sm:flex-row mt-8 text-center lg:py-8 lg:text-2xl md:text-xl md:py-2 sm:text-xs lg:px-24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-      </div>
-      <div className="container mx-auto">
-        <LabelText className=" text-gray-600 text-center ">What customers are saying</LabelText>
-        <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
-            <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer} />
-            </div>
-          ))}
+        <div className="flex flex-col sm:flex-row mt-8 text-center md:text-xl md:py-2 lg:text-2xl lg:px-24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
-      </div>
+      </div>    
       
     </section>
-    <section id="retaltor" className="lg:h-screen  bg-yellow-300 pt-6" >
-      <div className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-        <p className="mt-8 text-xl font-light">
-          Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
-        </p>
-      </div> 
-      <div className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section id="retaltor" className="lg:h-screen h-screen bg-gray-300 lg:pt-24 md:pt-48" >
+      <div className="container mx-auto my-20 py-24 bg-yellow-200 rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
         <p className="mt-8 text-xl font-light">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
