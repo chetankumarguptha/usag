@@ -42,7 +42,7 @@ export default () => (
         </div>
     </section>
     <section id="buyer" className="py-20 h-screen bg-gray-300 ">
-      <div className="container mx-auto text-center h-screen lg:pt-32">
+      <div className="container mx-auto text-center h-screen ">
         <LabelText className="text-black lg:text-4xl md:text-4xl md:py-12">Our Buyer says</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 md:text-xl md:py-2 lg:px-24 lg:py-8 lg:text-2xl">
           {/* <div className="w-full sm:w-1/3">
