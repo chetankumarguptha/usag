@@ -82,7 +82,7 @@ export default () => (
       
     </section>
     <section id="retaltor" className="lg:h-screen bg-gray-300 lg:pt-42 md:pt-48" >
-      <div className="container mx-auto my-20 py-24 bg-yellow-200  rounded-lg text-center">
+      <div className="container mx-auto my-20 py-24 bg-yellow-300  rounded-lg text-center">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
         <p className="mt-8 text-xl font-light">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
@@ -91,18 +91,18 @@ export default () => (
       
     </section>
     <section id="" className="lg:h-screen lg:pt-2 md:pt-48" >
-      <div className="container mx-auto my-20 py-24  bg-yellow-200 shadow-2xl  rounded-lg ">
-      <h3 className="text-5xl font-semibold container mx-auto border-b-2 border-gray-900  text-center">Contact US</h3>
-        <form class="w-full max-w-lg lg:py-4 py-4 lg:px-16">
+      <div className="container mx-auto my-20 py-24  bg-yellow-400 shadow-2xl  items-center rounded-lg ">
+      <h3 className="text-5xl font-semibold container mx-auto border-b-2 border-gray-900 text-gray-700 text-center">Contact US</h3>
+        <form class="w-full max-w-lg lg:py-4 py-4 lg:ml-64 md:ml-32 sm:m-auto lg:px-16 lg:mt-5 sm:mt-4">
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 px-6 mb-6 md:mb-0">
-              <label class="block uppercase tracking-wide text-gray-700 text-xs  font-bold mb-2" for="grid-first-name">
+              <label class="block uppercase tracking-wide text-black text-xs  font-bold mb-2" for="grid-first-name">
                 First Name:
               </label>
               <input class="appearance-none block w-full bg-gray-200  text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane" />
             </div>
             <div class="w-full md:w-1/2 px-6 ">  
-              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+              <label class="block uppercase tracking-wide  text-xs text-black font-bold mb-2" for="grid-last-name">
                 Last Name:
               </label>
               <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe" />
@@ -110,7 +110,7 @@ export default () => (
           </div>
           <div class="flex flex-wrap -mx-3 px-4 mb-6">
             <div class="w-full px-3">
-              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+              <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2" for="grid-password">
                 Gmail:
               </label>
               <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-gmail" type="text" placeholder="honey@gmail.com" />
@@ -118,7 +118,7 @@ export default () => (
           </div>
           <div class="flex flex-wrap -mx-3 px-4 mb-6">
             <div class="w-full px-3">
-              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+              <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2" for="grid-password">
                 Phone Number:
               </label>
               <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-numb" type="text" placeholder="1234567890" />
@@ -126,10 +126,10 @@ export default () => (
           </div>
           <div class="flex flex-wrap -mx-3 px-4 mb-6">
             <div class="w-full px-3">
-              <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+              <label class="block uppercase tracking-wide text-black text-xs font-bold mb-2" for="grid-password">
                 Leave your message here:
               </label>
-              <textarea class="resize border rounded focus:outline-none focus:shadow-outline px-8  bg-gray-200 text-gray-700 " placeholder="Leave your message here.........."></textarea>
+              <textarea class="resize border rounded focus:outline-none focus:shadow-outline px-4  bg-gray-200 text-gray-700 " placeholder="Leave your message here.........."></textarea>
             </div>
           </div>
           <div className="px-4"> 
