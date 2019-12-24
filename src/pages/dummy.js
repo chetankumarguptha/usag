@@ -14,16 +14,16 @@ import '../components/layout/layout.css'
 
 export default () => (
   <Layout>
-    <section className="md:pt-10 md:pl-20 " href="home" id="#home"> 
+    <section className="md:pt-10 md:pl-20 ">
       <div className="container mx-auto px-8 lg:flex flex flex-wrap">
         <div className="text-center lg:text-left py-10 lg:w-1/2  ">
           <h1 className="text-4xl lg:text-5xl py-10 xl:text-6xl font-bold leading-none">
             Victor Carrizalez
           </h1>
           <p className="text-xl lg:text-lg leading-normal  border-l-4 border-gray-800 px-8 py-3 font-light">
-          My goal is to cultivate a partnership, utilizing my <a className="font-semibold text-black hover:text-black">EXPERIENCE</a> to bring your ambitions of buying, selling or facilitating real estate sales come to fruition. By taking ownership of your <a className="font-semibold text-black hover:text-black">GOALS</a> a space is created for ultimate satisfaction and fulfillment. As a firm believer that a team is only as strong as it’s weakest link, I play the role of facilitator to the fullest. Willing and able, those around me are <a className="font-semibold text-black hover:text-black">EMPOWERED</a> to reach their highest potential. 
+          My goal is to cultivate a partnership, utilizing my <bold>EXPERIENCE</bold> to bring your ambitions of buying, selling or facilitating real estate sales come to fruition. By taking ownership of your GOALS a space is created for ultimate satisfaction and fulfillment. As a firm believer that a team is only as strong as it’s weakest link, I play the role of facilitator to the fullest. Willing and able, those around me are EMPOWERED to reach their highest potential. 
           </p>
-            <div className="text-xl lg:text-xl leading-normal   px-12 py-3 font-light">What’s your <a className="font-semibold text-black hover:text-black">DREAM TEAM</a> look like? </div>
+            <div className="text-xl lg:text-xl leading-normal   px-12 py-3 font-light">What’s your DREAM TEAM look like? </div>
         </div>
         <div className="lg:w-1/2 sm:w-1 object-center px-8 sm:py-4 lg:px-32 md:w-1/2 md:mx-32 lg:-mx-1">
           <img src={Personimage}/>
@@ -42,33 +42,56 @@ export default () => (
             The best way to find yourself is by losing yourself in the service of others."  - Mahatma Gandhi</p>
         </div>
     </section>
-    <section id="buyer" className="lg:h-screen bg-gray-300 lg:pt-48" >
-      <div className="container mx-auto my-20 py-24   rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Our Buyer</h3>
-        <p className="mt-8 text-xl lg:py-4 font-light">
-        If you are looking for <a className="font-semibold text-black hover:text-black">RESILIENT</a> support in one of the biggest investments most people ever make in their life, you came to the right place. In a space of uncertainties, rest assured that as your realtor, I will be your beacon of <a className="font-semibold text-black hover:text-black">LIGHT</a>, guiding you through this joyous journey. Please <a className="font-semibold text-black hover:text-black">GIVE</a> me the pleasure of helping you realize your <a className="font-semibold text-black hover:text-black">DREAMS! </a>
+    <section id="buyer" className="py-20 h-screen bg-gray-300 ">
+      <div className="container mx-auto text-center h-screen ">
+        <LabelText className="text-black lg:text-4xl lg:mt-32 md:text-4xl md:py-16">Our Buyer says</LabelText>
+        <div className="flex flex-col sm:flex-row  md:text-xl md:py-2 lg:px-24 lg:py-4 lg:text-2xl">
+          {/* <div className="w-full sm:w-1/3">
+            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          </div>
+          <div className="w-full sm:w-1/3">
+            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          </div>
+          <div className="w-full sm:w-1/3">
+            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+          </div> */}
+          If you are looking for RESILIENT support in one of the biggest investments most people ever make in their life, you came to the right place. In a space of uncertainties, rest assured that as your realtor, I will be your beacon of LIGHT, guiding you through this joyous journey. Please GIVE me the pleasure of helping you realize your DREAMS!
+        </div>
+        {/* <div className="flex flex-col sm:flex-row mt-8 lg:px-24 md:text-xl md:py-2 lg:py-8 lg:text-2xl">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        </div> */}
+      </div>
+    </section>
+    <section id="seller" className="lg:h-screen bg-gray-200 lg:pt-42 md:pt-48" >
+      <div className="container mx-auto my-20 py-24 bg-yellow-300  rounded-lg text-center">
+        <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+        <p className="mt-8 text-xl font-light">
+          Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
         </p>
       </div> 
       
     </section>
-    <section id="seller" className="lg:h-screen bg-gray-100 lg:pt-48" >
-      <div className="container mx-auto my-20 py-24   rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Our Seller</h3>
-        <p className="mt-8 text-xl lg:py-4 font-light">
-        <a className="font-semibold text-black hover:text-black">Ease</a> and <a className="font-semibold text-black hover:text-black">Grace</a> is what you get when you say, “VICTOR HELP ME SELL” then hand me the keys. Naturally, one will be put at ease from beginning to end, with constant communication and knowing that you and your goals are supported by a network of individuals who understand the power and importance of collaboration. Implementing proven strategies, anticipating, and true listening is how we will remain in the domain of grace. So...the sooner we close this chapter of your life, the sooner we can open up the next. 
-        </p>
-      </div> 
+    <section id="retaltor" className="h-screen py-20 bg-gray-100">
+      <div className="container mx-auto h-screen lg:pt-32 ">
+        <LabelText className="mb-8 text-black lg:text-4xl sm:text-6xl md:text-4xl text-center py-2">saying about seller</LabelText>
+        {/* <div className="flex flex-col md:flex-row md:-mx-3">
+          {customerData.map(customer => (
+            <div key={customer.customerName} className="flex-1 px-3">
+              <CustomerCard customer={customer} />
+            </div>
+          ))}
+        </div> */}
+        <div className="flex flex-col sm:flex-row mt-8 text-center lg:py-8 lg:text-2xl md:text-xl md:py-2 sm:text-xs lg:px-24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div className="flex flex-col sm:flex-row mt-8 text-center md:text-xl md:py-2 lg:text-2xl lg:px-24">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>    
       
     </section>
-    <section id="retaltor" className="lg:h-screen bg-gray-200 lg:pt-48" >
-      <div className="container mx-auto my-20 py-24   rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Our Retaltor</h3>
-        <p className="mt-8 text-xl lg:py-4 font-light">
-        My intention is to create a space for <a className="font-semibold text-black hover:text-black">COLLABORATION</a> in order to provide our clients with an experience they will <a className="font-semibold text-black hover:text-black">FOREVER</a> remember. I’ve been fortunate enough to cross paths with soul-centered entrepreneurs who have extended their <a className="font-semibold text-black hover:text-black">RESOURCES</a> to me. To express my never-ending <a className="font-semibold text-black hover:text-black">GRATITUDE</a> I wish to do the same. <a className="font-semibold text-black hover:text-black">ASK ME</a> how I can help you grow your business. Thoughts become reality and I choose <a className="font-semibold text-black hover:text-black">ABUNDANCE</a> for everyone. </p>
-      </div> 
-      
-    </section>
-    {/* <section id="" className="lg:h-screen lg:pt-2 md:pt-48" >
+    <section id="" className="lg:h-screen lg:pt-2 md:pt-48" >
       <div className="container mx-auto my-20 py-24  bg-yellow-400 shadow-2xl  items-center rounded-lg ">
       <h3 className="text-5xl font-semibold container mx-auto lg:-mt-4 text-gray-700 text-center">Contact US</h3>
       <div className="border-b-2 border-gray-900"></div>
@@ -116,6 +139,6 @@ export default () => (
           </div>
         </form>  
       </div>    
-    </section> */}
+    </section>
   </Layout>
 );
