@@ -30,7 +30,7 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="features" className="">
+    <section id="" className="">
       <div className="w-auto bg-gray-700 top-auto py-16">
           <ui className="flex justify-center flex-wrap">
                 <a href="#buyer" className="bg-white hover:bg-blue-700 text-black hover:text-white font-bold ml-4 py-2 px-6 mt-3 border border-blue-700
@@ -62,7 +62,16 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="seller" className="h-screen py-20 bg-gray-100">
+    <section id="seller" className="lg:h-screen bg-gray-200 lg:pt-42 md:pt-48" >
+      <div className="container mx-auto my-20 py-24 bg-yellow-300  rounded-lg text-center">
+        <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+        <p className="mt-8 text-xl font-light">
+          Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        </p>
+      </div> 
+      
+    </section>
+    <section id="retaltor" className="h-screen py-20 bg-gray-100">
       <div className="container mx-auto h-screen lg:pt-32 ">
         <LabelText className="mb-8 text-black lg:text-4xl sm:text-6xl md:text-4xl text-center py-2">saying about seller</LabelText>
         {/* <div className="flex flex-col md:flex-row md:-mx-3">
@@ -81,18 +90,10 @@ export default () => (
       </div>    
       
     </section>
-    <section id="retaltor" className="lg:h-screen bg-gray-300 lg:pt-42 md:pt-48" >
-      <div className="container mx-auto my-20 py-24 bg-yellow-300  rounded-lg text-center">
-        <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-        <p className="mt-8 text-xl font-light">
-          Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
-        </p>
-      </div> 
-      
-    </section>
     <section id="" className="lg:h-screen lg:pt-2 md:pt-48" >
       <div className="container mx-auto my-20 py-24  bg-yellow-400 shadow-2xl  items-center rounded-lg ">
-      <h3 className="text-5xl font-semibold container mx-auto border-b-2 border-gray-900 text-gray-700 text-center">Contact US</h3>
+      <h3 className="text-5xl font-semibold container mx-auto lg:-mt-4 text-gray-700 text-center">Contact US</h3>
+      <div className="border-b-2 border-gray-900"></div>
         <form class="w-full max-w-lg lg:py-4 py-4 lg:ml-64 md:ml-32 sm:m-auto lg:px-16 lg:mt-5 sm:mt-4">
           <div class="flex flex-wrap -mx-3 mb-6">
             <div class="w-full md:w-1/2 px-3 px-6 mb-6 md:mb-0">
